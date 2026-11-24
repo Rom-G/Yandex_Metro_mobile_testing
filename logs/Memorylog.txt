@@ -1,0 +1,65 @@
+04-18 09:31:13.629  2194  2220 E memtrack: Couldn't load memtrack module
+04-18 09:31:13.629  2194  2220 W android.os.Debug: failed to get memory consumption info: -1
+04-18 09:31:14.212  1629  1629 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+04-18 09:31:14.439  2194  2222 W LocalDisplayAdapter: Unable to find color mode 0, ignoring request.
+04-18 09:31:14.440  2194  2229 W system_server: Long monitor contention with owner android.ui (2222) at void com.android.server.wm.WindowManagerService.updateRotationUnchecked(boolean, boolean)(WindowManagerService.java:3878) waiters=1 in void com.android.server.wm.WindowManagerService.requestTraversal() for 181ms
+04-18 09:31:14.446  2194  2229 I ActivityManager: Config changes=20000480 {1.0 310mcc260mnc [ru_RU,en_US] ldltr sw360dp w592dp h336dp 480dpi nrml land finger qwerty/v/v -nav/h winConfig={ mBounds=Rect(0, 0 - 1776, 1080) mAppBounds=Rect(0, 0 - 1776, 1080) mWindowingMode=fullscreen mActivityType=undefined} s.65}
+04-18 09:31:14.578  2194  2229 I ActivityManager: Override config changes=20000480 {1.0 310mcc260mnc [ru_RU,en_US] ldltr sw360dp w592dp h336dp 480dpi nrml land finger qwerty/v/v -nav/h winConfig={ mBounds=Rect(0, 0 - 1776, 1080) mAppBounds=Rect(0, 0 - 1776, 1080) mWindowingMode=fullscreen mActivityType=undefined} s.65} for displayId=0
+04-18 09:31:14.613  2194  4096 I GnssLocationProvider: WakeLock acquired by sendMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@592d796)
+04-18 09:31:14.614  2194  2220 I GnssLocationProvider: WakeLock released by handleMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@592d796)
+04-18 09:31:14.615  2194  4096 I GnssLocationProvider: WakeLock acquired by sendMessage(REPORT_LOCATION, 1, Location[gps 55,569510,37,576128 hAcc=20 et=?!? alt=0.0 vel=0.0 bear=0.0 vAcc=??? sAcc=??? bAcc=???])
+04-18 09:31:14.616  2194  2220 I GnssLocationProvider: WakeLock released by handleMessage(REPORT_LOCATION, 1, Location[gps 55,569510,37,576128 hAcc=20 et=+11h27m44s269ms alt=0.0 vel=0.0 bear=0.0 vAcc=??? sAcc=??? bAcc=??? {Bundle[{satellites=0, maxCn0=0, meanCn0=0}]}])
+04-18 09:31:14.674  2194  2222 W system_server: Long monitor contention with owner android.display (2229) at boolean com.android.server.am.ActivityManagerService.updateDisplayOverrideConfiguration(android.content.res.Configuration, int)(ActivityManagerService.java:22684) waiters=0 in boolean com.android.server.am.ActivityManagerService.updateDisplayOverrideConfiguration(android.content.res.Configuration, int) for 224ms
+04-18 09:31:14.678 31228 31318 D EGL_emulation: eglMakeCurrent: 0xc3f507e0: ver 3 1 (tinfo 0xc2e05f90)
+04-18 09:31:14.687  2194  2287 I InputReader: Reconfiguring input devices.  changes=0x00000004
+04-18 09:31:14.689  2194  2287 I InputReader: Device reconfigured: id=0, name='qwerty2', size 1080x1920, orientation 1, mode 1, display id 0
+04-18 09:31:14.701  2194  3002 W system_server: Long monitor contention with owner android.display (2229) at boolean com.android.server.am.ActivityManagerService.updateDisplayOverrideConfiguration(android.content.res.Configuration, int)(ActivityManagerService.java:22684) waiters=1 in int com.android.server.am.ActivityManagerService.getLockTaskModeState() for 233ms
+04-18 09:31:14.701  2194  2222 W Looper  : Slow dispatch took 558ms android.ui h=com.android.server.policy.PhoneWindowManager$PolicyHandler c=com.android.server.policy.PhoneWindowManager$MyOrientationListener$UpdateRunnable@9c5401c m=0
+04-18 09:31:14.789 29291 29291 I EmojiSearchExtension: onDestroy()
+04-18 09:31:14.790 29291 29291 I EmojiSearchExtension: onDeactivate()
+04-18 09:31:14.902 29291 29291 I ModuleManager: Module object of interface com.google.android.apps.inputmethod.libs.search.emoji.EmojiSearchExtension loaded.
+04-18 09:31:14.906  1629  1629 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 622592
+04-18 09:31:14.908 29291 29291 I GoogleInputMethod: onStartInput() : Dummy InputConnection bound
+04-18 09:31:14.937  1629  1629 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8192
+04-18 09:31:14.946  1629  1629 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8192
+04-18 09:31:14.956  2403  2707 D EGL_emulation: eglMakeCurrent: 0xdd105840: ver 3 1 (tinfo 0xdd103a50)
+04-18 09:31:14.964  1629  1629 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 622592
+04-18 09:31:15.015  2403  2403 D StatusBar: disable<e i a s b h r c s > disable2<q i n >
+04-18 09:31:15.135  1629  1629 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 622592
+04-18 09:31:15.170  2194  3128 I GnssLocationProvider: WakeLock acquired by sendMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@f0e8c07)
+04-18 09:31:15.171  2194  2220 I GnssLocationProvider: WakeLock released by handleMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@f0e8c07)
+04-18 09:31:15.179  1629  1629 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+04-18 09:31:15.200 31228 31413 D HostConnection: HostConnection::get() New Host Connection established 0xdd124bd0, tid 31413
+04-18 09:31:15.204 31228 31413 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_YUV420_888_to_NV21 ANDROID_EMU_YUV_Cache ANDROID_EMU_sync_buffer_data ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_1 
+04-18 09:31:15.206 31228 31413 W yandex.maps: yandex::maps::runtime::logging::warn: Create OpenGl ES context version 3
+04-18 09:31:15.221 31228 31413 D eglCodecCommon: setVertexArrayObject: set vao to 0 (0) 0 0
+04-18 09:31:15.221 31228 31413 D EGL_emulation: eglCreateContext: 0xdd107880: maj 3 min 1 rcv 4
+04-18 09:31:15.223  1629  1629 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 7675904
+04-18 09:31:15.236  1629  1629 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 557056
+04-18 09:31:15.238  2403  2403 D StatusBar: disable<e i a s b h r c s > disable2<q i n >
+04-18 09:31:15.255 31228 31413 D EGL_emulation: eglMakeCurrent: 0xdd107880: ver 3 1 (tinfo 0xc1beb030)
+04-18 09:31:15.270  2194  3129 I GnssLocationProvider: WakeLock acquired by sendMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@c45f134)
+04-18 09:31:15.270  2194  2220 I GnssLocationProvider: WakeLock released by handleMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@c45f134)
+04-18 09:31:15.271 31228 31413 E eglCodecCommon: glUtilsParamSize: unknow param 0x000082da
+04-18 09:31:15.271 31228 31413 E eglCodecCommon: glUtilsParamSize: unknow param 0x000082da
+04-18 09:31:15.277  2194  3128 I GnssLocationProvider: WakeLock acquired by sendMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@b7dbb5d)
+04-18 09:31:15.286  2194  2220 I GnssLocationProvider: WakeLock released by handleMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@b7dbb5d)
+04-18 09:31:15.292  2194  4096 I GnssLocationProvider: WakeLock acquired by sendMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@a8d4cd2)
+04-18 09:31:15.293 31228 31318 D EGL_emulation: eglMakeCurrent: 0xc3f507e0: ver 3 1 (tinfo 0xc2e05f90)
+04-18 09:31:15.295  2194  2220 I GnssLocationProvider: WakeLock released by handleMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@a8d4cd2)
+04-18 09:31:15.308  2403  2707 D EGL_emulation: eglMakeCurrent: 0xdd105840: ver 3 1 (tinfo 0xdd103a50)
+04-18 09:31:15.318  1629  1629 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 557056
+04-18 09:31:15.332  1629  1728 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 7675904
+04-18 09:31:15.352  1629  1629 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+04-18 09:31:15.370  1629  1728 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 7675904
+04-18 09:31:15.383 29291 29291 I GoogleInputMethod: onFinishInput() : Dummy InputConnection bound
+04-18 09:31:15.384 29291 29291 I GoogleInputMethod: onStartInput() : Dummy InputConnection bound
+04-18 09:31:15.395  1629  1728 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+04-18 09:31:15.412  1629  1728 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 557056
+04-18 09:31:15.432  2403  2707 D EGL_emulation: eglMakeCurrent: 0xdd105840: ver 3 1 (tinfo 0xdd103a50)
+04-18 09:31:15.448  2194  2263 I WindowManager: Screen frozen for +1s266ms due to Window{ace5246 u0 ru.yandex.metro/ru.yandex.metro.LaunchActivity}
+04-18 09:31:15.458  2028  2028 D SurfaceFlinger: duplicate layer name: changing BlackSurface to BlackSurface#1
+04-18 09:31:15.461  2403  2707 D EGL_emulation: eglMakeCurrent: 0xdd105840: ver 3 1 (tinfo 0xdd103a50)
+04-18 09:31:15.465  2028  2028 D SurfaceFlinger: duplicate layer name: changing BlackSurface to BlackSurface#1
+04-18 09:31:15.471  2403  2707 D EGL_emulation: eglMakeCurrent: 0xdd105840: ver 3 1 (tinfo 0xdd103a50)
+04-18 09:31:15.481  2403  2707 D EGL_emulation: eglMakeCurrent: 0xdd105840: ver 3 1 (tinfo 0xdd103a50)

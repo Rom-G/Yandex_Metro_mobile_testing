@@ -1,0 +1,29 @@
+04-18 09:03:19.856 29210 29210 W .gms.persisten: Unexpected CPU variant for X86 using defaults: x86
+04-18 09:03:19.857 28869 28989 W GmsClient: IGmsServiceBroker.getService failed
+04-18 09:03:19.857 28869 28989 W GmsClient: android.os.DeadObjectException
+04-18 09:03:19.857 28869 28989 W GmsClient: 	at android.os.BinderProxy.transactNative(Native Method)
+04-18 09:03:19.857 28869 28989 W GmsClient: 	at android.os.BinderProxy.transact(Binder.java:1127)
+04-18 09:03:19.857 28869 28989 W GmsClient: 	at fzk.zza(Unknown Source:33)
+04-18 09:03:19.857 28869 28989 W GmsClient: 	at gab.a(Unknown Source:25)
+04-18 09:03:19.857 28869 28989 W GmsClient: 	at fwb.run(Unknown Source:9)
+04-18 09:03:19.857 28869 28989 W GmsClient: 	at android.os.Handler.handleCallback(Handler.java:873)
+04-18 09:03:19.857 28869 28989 W GmsClient: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+04-18 09:03:19.857 28869 28989 W GmsClient: 	at android.os.Looper.loop(Looper.java:193)
+04-18 09:03:19.857 28869 28989 W GmsClient: 	at android.os.HandlerThread.run(HandlerThread.java:65)
+04-18 09:03:19.863  2194  2223 I ActivityManager: Start proc 29210:com.google.android.gms.persistent/u0a12 for service com.google.android.gms/.chimera.PersistentDirectBootAwareApiService
+04-18 09:03:19.921  2028  2233 W SurfaceFlinger: Attempting to destroy on removed layer: 8efde6d DockedStackDivider#0
+04-18 09:03:19.932  1629  1728 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 557056
+04-18 09:03:19.935  2194  3132 I GnssLocationProvider: WakeLock acquired by sendMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@3a31ea1)
+04-18 09:03:19.948  2194  3326 I GnssLocationProvider: WakeLock acquired by sendMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@14f48c6)
+04-18 09:03:19.957  2029  2029 I Zygote  : Process 28361 exited due to signal (9)
+04-18 09:03:19.967  2194  2872 I ActivityManager: Process ru.yandex.metro (pid 28361) has died: fore TOP 
+04-18 09:03:19.967  2194  2224 W libprocessgroup: kill(-28361, 9) failed: No such process
+04-18 09:03:19.967  2194  2224 I libprocessgroup: Successfully killed process cgroup uid 10091 pid 28361 in 0ms
+04-18 09:03:19.967  2194  2220 I GnssLocationProvider: WakeLock released by handleMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@3a31ea1)
+04-18 09:03:19.974  2194  2872 W ActivityManager: Force removing ActivityRecord{2b642ac u0 ru.yandex.metro/.LaunchActivity t80}: app died, no saved state
+04-18 09:03:19.980  2194  6233 I GnssLocationProvider: WakeLock acquired by sendMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@63203dd)
+04-18 09:03:19.980  2194  2220 I GnssLocationProvider: WakeLock released by handleMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@14f48c6)
+04-18 09:03:19.981  2194  2220 I GnssLocationProvider: WakeLock released by handleMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@63203dd)
+04-18 09:03:19.983  1629  1728 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 28672
+04-18 09:03:19.985  2028  2233 W SurfaceFlinger: Attempting to destroy on removed layer: AppWindowToken{d90e70a token=Token{cf2fb75 ActivityRecord{2b642ac u0 ru.yandex.metro/.LaunchActivity t80}}}#0
+04-18 09:03:23.966 29210 29427 W GCoreFlp: No location to return for getLastLocation()
